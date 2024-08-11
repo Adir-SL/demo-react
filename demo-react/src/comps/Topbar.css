@@ -1,0 +1,13 @@
+.top-bar {
+    display: flex;
+    height: 72px;
+    padding: var(--xs, 8px) var(--l, 32px);
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    align-self: stretch;
+}
+
+h1 {
+    color: var(--color-bay-of-many, #224687);
+}
