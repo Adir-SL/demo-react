@@ -7,7 +7,3 @@
     flex-shrink: 0;
     align-self: stretch;
 }
-
-h1 {
-    color: var(--color-bay-of-many, #224687);
-}

@@ -21,3 +21,18 @@ body {
   flex-grow: 1;
   width: 100%;
 }
+
+h1 {
+  font-size: 32px;
+  color: var(--color-bay-of-many, #224687);
+}
+
+h2 {
+  color: var(--text-text-primary, #393939);
+  font-size: 32px;
+  margin: 0;
+}
+
+h3 {
+  font-size: 16px;
+}
