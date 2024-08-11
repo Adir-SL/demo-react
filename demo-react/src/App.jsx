@@ -7,8 +7,13 @@ import Map from './comps/Map';
 function App() {
 
   return (
-    <div class="main-screen-layout">
+    <div className="main-screen-layout">
       <Topbar />
+      <div className="screen-content">
+        <TreeStructure />
+        <RightPanel />
+        <Map />
+      </div>
       </div>
   )
 }

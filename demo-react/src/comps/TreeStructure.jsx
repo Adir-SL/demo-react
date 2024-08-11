@@ -3,7 +3,7 @@ import "./TreeStructure.css";
 
 const TreeStructure = (props) => {
     return (
-        <div class="tree-structure">Tree Structure</div>
+        <div className="tree-structure">Tree Structure</div>
     )
 };
 

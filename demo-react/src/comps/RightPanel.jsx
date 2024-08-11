@@ -3,7 +3,7 @@ import "./RightPanel.css";
 
 const RightPanel = (props) => {
     return (
-        <div class="right-panel"></div>
+        <div className="right-panel"></div>
     )
 };
 
