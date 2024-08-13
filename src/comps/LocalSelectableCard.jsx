@@ -17,7 +17,7 @@ const LocalSelectableCard = (props) => {
                 <div class="content">
                     <div class="icon"></div>
                     <div class="inner-content">
-                        <b onClick={(event) => {
+                        <b className="card-title" onClick={(event) => {
                             clickFunc(event)
                         }}
                         >{props.title}</b>

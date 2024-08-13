@@ -54,6 +54,9 @@
     margin: 0;
     padding: 0;
 }
+.card-title{
+    cursor: pointer;
+}
 
 .card .icon {
     width: 16px;
