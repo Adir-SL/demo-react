@@ -3,10 +3,11 @@ import "./LocalSelectableCard.css";
 
 const LocalSelectableCard = (props) => {
     function clickFunc(event) {
-        if (event.target.parentNode.parentNode.parentNode.classList.contains('expanded')) {
-            event.target.parentNode.parentNode.parentNode.classList.remove('expanded');
+        target = event.target.parentNode.parentNode.parentNode;
+        if (target.classList.contains('expanded')) {
+            target.classList.remove('expanded');
         } else {
-            event.target.parentNode.parentNode.parentNode.classList.add('expanded');
+            target.classList.add('expanded');
         }
     }
     return (
