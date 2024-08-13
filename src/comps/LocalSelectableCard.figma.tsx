@@ -36,6 +36,7 @@ figma.connect(
       <LocalSelectableCard
         title={props.title41616}
         section={props.sectornumber4162}
+        checkbox={props.checkbox1510}
       />
     ),
   },
