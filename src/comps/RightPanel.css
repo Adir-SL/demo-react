@@ -1,8 +1,8 @@
 .right-panel {
-    display: flex;
+    /* display: flex; */
     width: 376px;
     min-width: 376px;
-    height: 100%;
+    height: calc(100% - 56px);
     padding: 32px;
     padding-top: 24px;
     flex-direction: column;
@@ -12,5 +12,6 @@
     border-radius: 0px var(--m, 24px) 0px 0px;
     background: var(--white-white, #FFF);
     z-index: 2;
+    overflow: auto;
     box-shadow: -2px 0px var(--blur-system-xs, 8px) 0px var(--color-elevation-system-xs, rgba(6, 28, 49, 0.08));
 }
