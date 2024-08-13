@@ -8,18 +8,22 @@ const RightPanel = (props) => {
             <LocalSelectableCard
                 title="מפת שטח נשר"
                 section="9837463"
+                checkbox
             />
             <LocalSelectableCard
                 title="מפת שטח רכסים"
                 section="9736274"
+                checkbox
             />
             <LocalSelectableCard
                 title="מפת שטח יגור"
                 section="9853795"
+                checkbox
             />
             <LocalSelectableCard
                 title="מפת שטח חיפה"
                 section="9736274"
+                checkbox
             />
             <LocalSelectableCard
                 title="מפת שטח עין הוד"
