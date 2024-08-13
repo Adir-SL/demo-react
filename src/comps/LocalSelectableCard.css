@@ -91,3 +91,7 @@ input[type="checkbox"]:checked::after {
 input[type="checkbox"]:checked:hover::after {
     background-color: #2C6FDF;
 }
+
+.card.expanded{
+    border-radius: 8px 8px 0 0;
+}
