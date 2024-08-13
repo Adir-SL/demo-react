@@ -33,7 +33,10 @@ figma.connect(
       }),
     },
     example: (props) => (
-      <LocalSelectableCard title={props.title41616} section={props.sectornumber4162} />
+      <LocalSelectableCard
+        title={props.title41616}
+        section={props.sectornumber4162}
+      />
     ),
   },
 )
