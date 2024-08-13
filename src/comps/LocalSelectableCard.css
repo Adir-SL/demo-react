@@ -12,6 +12,11 @@
     margin-bottom: 9px;
 }
 
+.card:hover {
+    border: 1px solid var(--color-system-border-secondary, #D1D1D1);
+    background: linear-gradient(0deg, var(--color-system-bg-hover, rgba(0, 0, 0, 0.04)) 0%, var(--color-system-bg-hover, rgba(0, 0, 0, 0.04)) 100%), var(--color-surface-00, #FFF);
+}
+
 .tag {
     display: flex;
     width: 85px;
@@ -64,8 +69,8 @@ input[type="checkbox"]::after {
     width: 16px;
     height: 16px;
     bottom: -8px;
-    border: 1px solid #DCE1EC;
-    border-radius: 4px;
+    border-radius: var(--surfaces-3xs, 2px);
+    border: 1px solid var(--color-system-border-primary, #949494);
     box-sizing: border-box;
     cursor: pointer;
 }
