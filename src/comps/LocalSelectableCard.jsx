@@ -3,7 +3,7 @@ import "./LocalSelectableCard.css";
 
 const LocalSelectableCard = (props) => {
     return (
-        <div class={(props.expanded ? 'card expanded' : 'card')} onClick={() => { this.props.expanded, !this.props.expanded }}>
+        <div class={(props.expanded ? 'card expanded' : 'card')}>
             <input type="checkbox" hidden={!props.checkbox} />
             <div class="content">
                 <div class="icon"></div>
