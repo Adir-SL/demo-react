@@ -92,6 +92,15 @@ input[type="checkbox"]:checked:hover::after {
     background-color: #2C6FDF;
 }
 
-.card.expanded{
+.card.expanded {
     border-radius: 8px 8px 0 0;
+}
+
+.card.expanded.thing {
+    display: flex;
+    padding: 16px 0px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 16px;
+    align-self: stretch;
 }
