@@ -3,7 +3,7 @@ import "./LocalSelectableCard.css";
 
 const LocalSelectableCard = (props) => {
     function clickFunc(event) {
-        var target = event.target.parentNode.parentNode.parentNode;
+        var target = event.target.parentNode.parentNode.parentNode.parentNode;
         if (target.classList.contains('expanded')) {
             target.classList.remove('expanded');
         } else {
@@ -26,7 +26,7 @@ const LocalSelectableCard = (props) => {
                 </div>
                 <div class="tag">28 עדכונים</div>
             </div>
-            <div className={(props.expanded ? 'card-body' : 'card-body hidden')}>
+            <div className="card-body">
                 <div className="local-list">
                     <h3>כל העדכונים</h3>
                     <div>עדכון כבישים</div>
