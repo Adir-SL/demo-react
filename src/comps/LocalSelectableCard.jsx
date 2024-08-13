@@ -1,7 +1,7 @@
 import React from 'react';
-import "./Card.css";
+import "./LocalSelectableCard.css";
 
-const Card = (props) => {
+const LocalSelectableCard = (props) => {
     return (
         <div class="card">
             <input type="checkbox" />
@@ -17,4 +17,4 @@ const Card = (props) => {
     )
 };
 
-export default Card;
+export default LocalSelectableCard;

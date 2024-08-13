@@ -1,6 +1,6 @@
 import React from 'react';
 import "./RightPanel.css";
-import Card from './Card'
+import Card from './LocalSelectableCard'
 
 const RightPanel = (props) => {
     return (
