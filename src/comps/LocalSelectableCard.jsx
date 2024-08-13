@@ -38,6 +38,14 @@ const LocalSelectableCard = (props) => {
                     <div>עדכון צירים</div>
                     <div>עדכון יער</div>
                 </div>
+                <div className="local-list">
+                    <h3>זמן עדכון</h3>
+                    <div>7.2.2023</div>
+                </div>
+                <div className="local-list">
+                    <h3>מזהה</h3>
+                    <div>XR-SHEET.dwg</div>
+                </div>
             </div>
         </div>
     )
