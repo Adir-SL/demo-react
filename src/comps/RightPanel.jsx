@@ -5,6 +5,8 @@ import LocalSelectableCard from './LocalSelectableCard'
 const RightPanel = (props) => {
     return (
         <div className="right-panel">
+            <h2>כותרת</h2>
+            <h3>תת-כותרת</h3>
             <LocalSelectableCard
                 title="מפת שטח נשר"
                 section="9837463"
