@@ -3,7 +3,7 @@ import "./LocalSelectableCard.css";
 
 const LocalSelectableCard = (props) => {
     function clickFunc(event) {
-        target = event.target.parentNode.parentNode.parentNode;
+        var target = event.target.parentNode.parentNode.parentNode;
         if (target.classList.contains('expanded')) {
             target.classList.remove('expanded');
         } else {
