@@ -1,15 +1,22 @@
 .card {
     display: flex;
-    height: 64px;
+    min-height: 64px;
     padding: 0px 16px;
-    justify-content: flex-end;
-    align-items: center;
     gap: 8px;
     align-self: stretch;
+    justify-content: center;
+    flex-direction: column;
     border-radius: 8px;
     border: 1px solid rgba(34, 70, 135, 0.16);
     background: var(--white-white, #FFF);
     margin-bottom: 9px;
+}
+
+.card-header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 64px;
 }
 
 .card:hover {
@@ -96,11 +103,14 @@ input[type="checkbox"]:checked:hover::after {
     border-radius: 8px 8px 0 0;
 }
 
-.card.expanded.thing {
+.card.expanded .card-body {
     display: flex;
     padding: 16px 0px;
-    flex-direction: column;
-    align-items: flex-end;
+    justify-content: flex-end;
+    align-items: flex-start;
     gap: 16px;
-    align-self: stretch;
+    background: var(--color-surface-01, #F8F8F8);
+}
+.hidden{
+    display: none;
 }
