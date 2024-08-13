@@ -9,6 +9,7 @@ const RightPanel = (props) => {
                 title="מפת שטח נשר"
                 section="9837463"
                 checkbox
+                expanded
             />
             <LocalSelectableCard
                 title="מפת שטח רכסים"
