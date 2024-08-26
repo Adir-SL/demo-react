@@ -1,5 +1,5 @@
 import React from "react"
-import LocalSelectableCard from "./LocalSelectableCard"
+import Card from "./LocalSelectableCard"
 import figma from "@figma/code-connect"
 
 /**
@@ -11,7 +11,7 @@ import figma from "@figma/code-connect"
  */
 
 figma.connect(
-  LocalSelectableCard,
+  Card,
   "https://www.figma.com/design/hpGEtO60qoTAgCRWjRH3Mc/Demo-Day?node-id=2026-4080&m=dev",
   {
     props: {
@@ -33,7 +33,7 @@ figma.connect(
       }),
     },
     example: (props) => (
-      <LocalSelectableCard
+      <Card
         title={props.title41616}
         section={props.sectornumber4162}
         checkbox={props.checkbox1510}
