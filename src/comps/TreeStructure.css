@@ -1,8 +1,8 @@
 .tree-structure {
     display: flex;
-    width: 288px;
-    min-width: 288px;
-    padding: 48px 8px 24px 24px;
+    width: 366px;
+    min-width: 366px;
+    padding: 32px 32px 24px 24px;
     flex-direction: column;
     align-items: flex-end;
     gap: 24px;
@@ -10,6 +10,6 @@
 }
 
 .tree-structure svg {
-    transform-origin: top right;
-    transform: scale(1.15);
+    transform-origin: top left;
+    transform: scale(1.25);
 }
