@@ -2,6 +2,7 @@
     display: flex;
     min-height: var(--system-7xl, 72px);
     padding: 0px var(--system-s, 24px);
+    
     justify-content: space-between;
     align-items: center;
     flex-shrink: 0;
