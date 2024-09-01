@@ -12,4 +12,7 @@
     margin: 0;
 }
 
-.top-bar .end-content {}
+.top-bar .end-content {
+    width: 136px;
+    height: 72px;
+}
