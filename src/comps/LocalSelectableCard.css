@@ -111,6 +111,7 @@ input[type="checkbox"]:checked:hover::after {
 
 .card.expanded .card-body {
     display: flex;
+    flex-direction: column;
     padding: 24px;
     justify-content: flex-start;
     align-items: flex-start;
